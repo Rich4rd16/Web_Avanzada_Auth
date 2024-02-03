@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
 
 const supabaseUrl = '<Ingresar project URL>'
-const supabaseKey = 'API Key'
+const supabaseKey = '<Ingresar API Key>'
 export const supabase = createClient(supabaseUrl, supabaseKey)
